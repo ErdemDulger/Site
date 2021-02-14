@@ -1,0 +1,622 @@
+@font-face{
+	font-family: "Raleway";
+	src: url('../fonts/Raleway-Regular.ttf');
+}
+
+body {
+	background: #ffffff;
+	color: #3f3f3f;
+	font: 14px / 28px ariel;
+	font-family: "Raleway";
+}
+.headerContainer{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	background-color: white;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+}
+
+header .logo{
+	margin-right: auto;
+	padding-top:5px;
+}
+header .logo img{
+	display: block;
+	height: 80px;
+	margin-left:80px;
+}
+.menu li {
+	float: left;
+}
+.menu li a{
+    text-decoration: none;
+    text-decoration-style: none;
+	color: #000000;
+	padding: 30px 17px;
+	display: block;
+	letter-spacing: 1.5px;
+	transition:all .5s ease;	
+}
+.menu li:hover a{
+	background-color: #000000;
+	color: #ffffff;
+}
+#mainSlider{
+	height: 500px;
+	background: url('../img/slider3.jpg') center center no-repeat;
+	background-size: cover;
+}
+#mainCaption{
+	height: 500px;
+	background: rgba(0,0,0, .4);
+}
+.slider{
+	overflow: hidden;
+	width: 100%;
+}
+.caption {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	color: #fff;
+}
+.caption h1{
+	font-size: 35px;
+}
+.caption p{
+	margin-top: 10px;
+	font-size: 20px;
+}
+.container{
+	padding: 20px;
+	background-color: white;
+	overflow: hidden;
+}
+.secondCaption img{
+	float: left;
+	margin-top: auto 0;
+	padding-left: 50px;
+}
+.secondCaption{
+	display: block;
+	border-color: #000000;
+	width: 80%;
+	background-color: white;
+	color: #000000;
+}
+.secondCaption h2{
+	text-align: center;
+}
+.secondCaption p{
+	width: 70%;
+	float: right;
+}
+#parallax {
+	background:linear-gradient(
+	rgba(0,0,0, .7),
+	rgba(0,0,0, .7)
+	),
+		url("../img/slider.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	height: 200px;
+}
+.parallaxTop{
+	margin-top: 5%;
+	color: #ffffff;
+}
+.parallaxTop h2{
+	font-size: 1.3rem;
+}
+
+
+
+
+
+
+.parallax-gecit a{
+	color: white;
+}
+.sectionArea{
+	padding-top: 10px;
+	overflow: hidden;
+}
+.col3 {
+	flex-grow: 1;
+	width: 33.33%;
+}
+.footerContainer{
+	display: flex;
+	margin-top: auto 0;
+	overflow: hidden;
+	margin: 1.5rem 0;
+}
+footer{
+	text-align: center;
+	background-color: #000000;
+}
+.footerLinks li {
+	padding: 5px 0;
+}
+.footerLinks li a{
+	text-decoration: none;
+	color:#95a5a6;
+	font-size:14px;
+	transition: .5s ease;
+}
+.footerLinks li a:hover{
+	color:#fff;
+	text-decoration: underline;
+}
+.footerItem p{
+	color: #606060;
+	line-height: 20px;
+}
+.socialLinks li {
+	display: inline;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	font-size:30px;
+	line-height: 50px;
+}
+.socialLinks a{
+	color:#95a5a6;
+	transition: .5s ease;
+}
+.socialLinks a:hover {
+	color:#fff;
+}
+
+.logo2 img {
+	height: 50px;
+	opacity: .5;
+	margin-bottom: 10px;
+}
+.footerItem h3{
+	letter-spacing: 2px;
+	font-size:18px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+/* bizkimiz*/
+#bizkimizCaption{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.bzCaption{
+	display: block;
+	overflow: hidden;
+}
+.caption-border{
+	padding: 15px 30px;
+	display: block;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+	border-radius: 0.25rem;	
+	margin: 1.5rem 0;
+}
+
+.firstCaption{
+	color: black;
+}
+.bzContainer{
+	margin: 15px 0;
+	width: 70%;
+}
+.bzContainer h1{
+	text-align: center;
+	font-size: 2rem;
+	padding-bottom: 10px;
+	padding-top: 15px;
+}
+.bzContainer p{
+	font-size: 1.1rem;
+	word-spacing: 1.5px;
+}
+.caption-bz-second{
+	margin-bottom: 20px;
+}
+
+/* fakulte */
+.fakulteHeader{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25px;
+	margin-bottom: 0;
+}
+.fakHeader{
+	padding: 15px 30px;
+	display: block;
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;	
+}
+#disFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/dis-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0%;
+}
+#egtFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/egitim-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0%;
+}
+#fenFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/fen-ede-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#guzFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/guzel-sanat-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#hukFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/hukuk-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#iiFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/ii-fak.png") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#ilaFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/ilahiyat-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#iltFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/işletme-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#mimarFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/mimar-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#mühFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/muhendis-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#sporFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/sporbilimleri-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#sagFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/saglıkbilim-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#tıpFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/tıp-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#vetFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/veteriner-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#ziratFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/ziraat-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#myoFak{
+	border-radius: 10px;
+	width: 80%;
+	background: url("../img/myo-fak.jpg") center center no-repeat;
+	background-size: cover ;
+	height: 190px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#Fak2{
+	height: 190px;
+	background: rgba(0,0,0, .6);
+	border-radius: 10px;
+}
+#Fak2:hover{
+	background: rgba(0,0,0, .2);
+	border-radius: 10px;
+}
+.Fakulte{
+	margin-top: 20px;
+	text-align: center;
+
+}
+.Fakulte2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.disFak{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.Fakulte h1{
+	color: #ffffff;
+	font-size: 31px;
+}
+
+.fakBody{
+	margin: 5rem 0;
+	
+}
+.fakBody a{
+	text-decoration: none;
+    text-decoration-style: none;
+}
+.col2{
+	margin-top: 0%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 100%;
+}
+
+#contact{
+	margin-left: 20%;
+	margin-bottom: 6%;
+	margin-top: 6%;
+}
+#fcf-form {
+	display:block;
+}
+
+.fcf-body {
+    margin: 0;
+    font-family: -apple-system, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+    padding: 30px;
+    padding-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+	max-width: 70%;	
+}
+
+.fcf-form-group {
+    margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.fcf-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    outline: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fcf-form-control:focus {
+    border: 1px solid #313131;
+}
+
+select.fcf-form-control[size], select.fcf-form-control[multiple] {
+    height: auto;
+}
+
+textarea.fcf-form-control {
+    
+    height: auto;
+}
+
+label.fcf-label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.fcf-credit {
+    padding-top: 10px;
+    font-size: 0.9rem;
+    color: #545b62;
+}
+
+.fcf-credit a {
+    color: #545b62;
+    text-decoration: underline;
+}
+
+.fcf-credit a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.fcf-btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fcf-btn {
+        transition: none;
+    }
+}
+
+.fcf-btn:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.fcf-btn:focus, .fcf-btn.focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.fcf-btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+}
+
+.fcf-btn-block {
+    display: block;
+    width: 100%;
+}
+
+.fcf-btn-block+.fcf-btn-block {
+    margin-top: 0.5rem;
+}
+
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+    width: 100%;
+}
+.cevaplar_png{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 5rem 0;
+}

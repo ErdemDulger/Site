@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Description" content="İlk Profesyonel Web Sitesi Tasarımı">
+        <meta name="author" content="Erdem Dülger">
+        <meta name="Keywords" content="Html, Css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>İletişim</title>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+	    <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="headerContainer">
+                <div class="logo">
+                    <a href="index.html"><img src="img/logoo.png" alt="logo"></a>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Anasayfa</a></li>
+                            <li><a href="bizkimiz.html">Biz Kimiz?</a></li>
+                            <li><a href="Fakülteler.html">Fakülteler</a></li>
+                            <li><a href="iletişim.html">İletişim</a></li>
+                        </ul>
+                    </nav>  
+                </div>
+            </div>
+        </header>
+        <section id="contact" >
+            <div class="fcf-body">
+                <div id="fcf-form">
+                    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                        <div class="fcf-form-group">
+                            <label for="Name" class="fcf-label">Adınız</label>
+                                <div class="fcf-input-group">
+                                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                                </div>
+                        </div>
+                        
+                        <div class="fcf-form-group">
+                            <label for="Fakulte" class="fcf-label">Fakulte</label>
+                                <div class="fcf-input-group">
+                                    <input type="text" id="Fakulte" name="Fakulte" class="fcf-form-control" required>
+                                </div>
+                        </div>
+
+                        <div class="fcf-form-group">
+                            <label for="Email" class="fcf-label">Email adresiniz</label>
+                                <div class="fcf-input-group">
+                                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                                </div>
+                        </div>
+                    
+                        <div class="fcf-form-group">
+                            <label for="Message" class="fcf-label">Sorunuz</label>
+                                <div class="fcf-input-group">
+                                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                                </div>
+                        </div>
+                    
+                        <div class="fcf-form-group">
+                            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Soruyu Gönder</button>
+                        </div>
+                    </form>
+                 </div>
+            </div>
+        </section>
+        <footer class="sectionArea">
+            <div class="footerContainer">
+                <div class="col3">
+                    <div class="footerItem">
+                    <h3>SİTEMİZE HOŞGELDİNİZ</h3>
+                    <a href="index.html" class="logo2"><img src="img/logoo.png" alt="logo"></a>
+                    <p>Sitemizi ziyaret ettiğini için teşekkürler</p>
+                    <p>Sitemiz sizin için elinden gelenin en iyisini yapmaya çalışıyor teşekkürler</p>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="footerItem">
+                    <h3>HIZLI MENÜ</h3>
+                    <ul class="footerLinks">
+                        <li><a href="index.html">Anasayfa</a></li>
+                        <li><a href="bizkimiz.html">Biz Kimiz?</a></li>
+                        <li><a href="Fakülteler.html">Fakülteler</a></li>
+                        <li><a href="iletişim.html">İletişim</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="col3">
+                    <div class="footerItem">
+                    <h3>BİZİMLE İLETİŞİMDE OL</h3>
+                    <ul class="socialLinks">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
